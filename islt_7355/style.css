@@ -1,4 +1,37 @@
 
 h1 {
+    display: block;
+    text-align: center;
     color: #003300;
+}
+h2 {
+    display: block;
+    text-align: center;
+
+}
+h3 {
+    display: block;
+    margin-left: 220px;
+}
+p{
+    display: block;
+    width: 75%;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 200px;
+}
+.References{
+    display: block;
+    padding: 5px;
+}
+.APAreference {
+    display:block;
+    margin: 13px 5px 5px 200px;
+}
+div#first::first-letter{
+    color:blueviolet;
+}
+div:not(div#first){
+    text-indent: 35px;
 }

@@ -1,4 +1,10 @@
 
+nav {
+    display:block;
+    position:fixed;
+    top: 90px;
+    left: 7px;
+}
 nav ul>li {
     display: block;
     position: relative;
