@@ -1,9 +1,22 @@
 
-ul li{
+nav ul>li {
     display: block;
+    position: relative;
+    height: 12px;
+    right: 0;
     width: 150px;
     padding: 10px;
     border: 2px solid black;
     list-style-type: none;
-    margin: 5px 10px 5px -30px;
+    margin: 2px 10px 2px -30px;
 }
+
+nav ul>li ul {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 100%;
+    display: none;
+    }
+nav>ul>li:hover>ul{
+    display: block;
+    }
