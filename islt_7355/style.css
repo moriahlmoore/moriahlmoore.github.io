@@ -35,3 +35,8 @@ div#first::first-letter{
 div:not(div#first){
     text-indent: 35px;
 }
+footer {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
