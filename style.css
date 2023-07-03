@@ -29,13 +29,7 @@ p{
     display:block;
     margin: 13px 5px 5px 200px;
 }
-/*div#first::first-letter{
-    color:blueviolet;
-}
-div:not(div#first){
-    text-indent: 35px;
-}
-*/
+
 footer {
     display: block;
     position: fixed;
@@ -73,7 +67,7 @@ footer {
         width: 42%;
         display: block;
         margin: 10px;
-        padding: 10px, 10px, 50px, 10px;
+        padding-bottom: 50px;
         position: absolute;
         left: 13%;
         top: 141px;   
@@ -91,7 +85,7 @@ footer {
         width: 75%;
         position: absolute;
         left: 27%;
-        top: 700px;
+        top: 1000px;
         padding-bottom: 50px;
     }
     h1 {
@@ -112,7 +106,7 @@ footer {
         width: 42%;
         display: block;
         margin: 10px;
-        padding: 10px, 10px, 50px, 10px;
+        padding-bottom: 50px;
         position: absolute;
         left: 5%;
         top: 200px;    
