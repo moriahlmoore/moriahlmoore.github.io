@@ -82,10 +82,10 @@ footer {
         top:223px;
     }
     blockquote {
+        text-align: center;
         width: 75%;
-        position: absolute;
-        left: 27%;
-        top: 1000px;
+        position: fixed;
+        top: 620px;
         padding-bottom: 50px;
     }
     h1 {
@@ -106,10 +106,10 @@ footer {
         width: 42%;
         display: block;
         margin: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
         position: absolute;
         left: 5%;
-        top: 200px;    
+        top: 200px;   
     } 
 
 } 
