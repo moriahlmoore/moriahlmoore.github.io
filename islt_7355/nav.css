@@ -2,8 +2,10 @@
     nav {
         display:flex;
         position:fixed;
-        top: 90px;
         left: 7px;
+        top: 7px;
+        height: 717px;
+        background-color: #568c8c;
     }
     nav ul>li {
         display: block;
@@ -37,13 +39,14 @@
     #list {
         display:none;
         position:fixed;
-        top: 200px;
+        top: 230px;
         left: 7px;
     }
     #icon {
         display: block;
-        position: relative;
+        position: absolute;
         left: 45%;
+        top: 193px;
     }
     #menu:hover>#list {
         display:block;
@@ -52,7 +55,7 @@
     }
     nav ul>li {
         display: block;
-        background-color: #003300;
+        background-color:  #568c8c;
         color:antiquewhite;
         position: relative;
         height: 12px;
