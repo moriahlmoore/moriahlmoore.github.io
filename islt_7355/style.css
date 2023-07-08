@@ -36,7 +36,7 @@ footer {
         text-align: center;
         text-shadow: 0 0 black;
         color: #eeece6;
-        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/1be0e1c3997e80dea1c04a592340184c27e68873/islt_7355/grave_brooklyn_wide.jpg);
+        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/2acb62a46572494716cdaa683649d1fbbf8852a5/islt_7355/grave_brooklyn_wide.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         margin: auto;
@@ -63,6 +63,21 @@ footer {
         width: 42%;
         position: relative;
         left: 57%;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
     }
     blockquote {
         width: 75%;
@@ -116,6 +131,30 @@ footer {
         position: absolute;
         left: 15%;
         top: 425px; 
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 50%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
     }
     .References{
         display: block;
@@ -182,6 +221,24 @@ footer {
         left: 57%;
         top:30px;
     }
+    #symbolmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
     blockquote {
         text-align: center;
         width: 75%;
@@ -234,6 +291,30 @@ footer {
         position: absolute;
         left: 5%;
         top: 255px;
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 45%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
     }
     .References{
         display: block;
@@ -268,7 +349,7 @@ footer {
         text-align: center;
         text-shadow: 0 0 black;
         color: #eeece6;
-        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/1be0e1c3997e80dea1c04a592340184c27e68873/islt_7355/grave_brooklyn_narrow.jpg);
+        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/86e49e55a894df4f597aea8ae8deb4a131391bce/islt_7355/grave_brooklyn_narrow.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         margin: auto;
@@ -299,6 +380,24 @@ footer {
         position: relative;
         left: 57%;
         top:30px;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
     }
     blockquote {
         text-align: center;
@@ -352,6 +451,30 @@ footer {
         position: absolute;
         left: 5%;
         top: 255px;
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 45%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
     }
     .References{
         display: block;
