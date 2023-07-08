@@ -18,18 +18,18 @@ footer {
     background-color: #568c8c;
 }
 @media screen and (min-width: 890px) {
+    a{
+        color:#568c8c;
+    }
+    a:visited {
+        color: #585c63;
+    }
+    a:hover {
+        color: #072000;
+    }
     div.exteriordiv {
         padding-bottom: 70px;
         font-size: large;
-        a{
-            color:#568c8c;
-            }
-            a:visited {
-                color: #585c63;
-            }
-            a:hover {
-                color: #072000;
-            }
     }
     h1 {
         display: block;
@@ -169,18 +169,18 @@ footer {
 } 
 
 @media screen and (max-width: 889px ) and (min-width: 540px){
+    a{
+        color:#568c8c;
+    }
+    a:visited {
+        color: #585c63;
+    }
+    a:hover {
+        color: #072000;
+    }
     div.exteriordiv {
         padding-bottom: 150px;
         font-size: x-large;
-        a:link {
-            color:#568c8c;
-            }
-            a:visited {
-                color: #585c63;
-            }
-            a:hover {
-                color: #072000;
-            }
     }
     h1 {
         display: block;
@@ -331,18 +331,18 @@ footer {
     }
 } 
 @media screen and (max-width: 539px) {
+    a{
+        color:#568c8c;
+    }
+    a:visited {
+        color: #585c63;
+    }
+    a:hover {
+        color: #072000;
+    }
     div.exteriordiv {
         padding-bottom: 250px;
         font-size: x-large;
-        a:link {
-            color:#568c8c;
-            }
-            a:visited {
-                color: #585c63;
-            }
-            a:hover {
-                color: #072000;
-            }
     }
     h1 {
         display: block;
