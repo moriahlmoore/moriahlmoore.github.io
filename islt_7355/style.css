@@ -83,7 +83,7 @@ footer {
         width: 75%;
         position: absolute;
         left: 27%;
-        top: 1000px;
+        top: 1170px;
         padding-bottom: 50px;
     }
     #aboutparagraph {
@@ -114,6 +114,12 @@ footer {
         width: 20%;
         position: absolute;
         left:65%;
+    }
+    #resumevideo {
+        left: 15%;
+        position: absolute;
+        top: 860px;
+        margin-bottom: 70px;
     }
     p#introparagraph{
         display: block;
@@ -242,8 +248,8 @@ footer {
     blockquote {
         text-align: center;
         width: 75%;
-        position: fixed;
-        top: 620px;
+        position: absolute;
+        top: 1900PX;
         padding-bottom: 50px;
     }
     #aboutparagraph {
@@ -274,6 +280,11 @@ footer {
         width: 20%;
         position: absolute;
         left:65%;
+    }
+    #resumevideo {
+        position: absolute;
+        top: 1600px;
+        margin-bottom: 70px;
     }
     p#introparagraph{
         display: block;
@@ -402,8 +413,8 @@ footer {
     blockquote {
         text-align: center;
         width: 75%;
-        position: fixed;
-        top: 620px;
+        position: absolute;
+        top: 2250px;
         padding-bottom: 50px;
     }
     #aboutparagraph {
@@ -434,6 +445,11 @@ footer {
         width: 20%;
         position: absolute;
         left:65%;
+    }
+    #resumevideo {
+        position: absolute;
+        top: 1950px;
+        margin-bottom: 70px;
     }
     p#introparagraph{
         display: block;
@@ -583,6 +599,9 @@ footer {
         width: 20%;
         position: absolute;
         left:65%;
+    }
+    #resumevideo {
+    display:none;
     }
     p#introparagraph{
         display: block;
