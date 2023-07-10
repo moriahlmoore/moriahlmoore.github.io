@@ -1,43 +1,80 @@
-h1 {
-    display: block;
-    text-align: center;
-    color: #003300;
-}
-h2 {
-    display: block;
-    text-align: center;
 
-}
-h3 {
+p#introparagraph{
     display: block;
-    text-align: center;
-}
-
-p{
-    display: block;
-    width: 75%;
+    width: 80%;
     margin: 10px;
     padding: 10px;
     position: relative;
-    left: 20%;
-}
-.References{
-    display: block;
-    padding: 5px;
-}
-.APAreference {
-    display:block;
-    margin: 13px 5px 5px 200px;
+    left: 10%;
 }
 
 footer {
     display: block;
     position: fixed;
-    bottom: 10px;
+    text-align: left;
+    bottom: 1px;
     margin-top: 30px;
+    width: 1700px;
+    background-color: #568c8c;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 890px) {
+    a{
+        color:#568c8c;
+    }
+    a:visited {
+        color: #585c63;
+    }
+    a:hover {
+        color: #072000;
+    }
+    div.exteriordiv {
+        padding-bottom: 70px;
+        font-size: large;
+    }
+    h1 {
+        display: block;
+        text-align: center;
+        text-shadow: 0 0 black;
+        color: #eeece6;
+        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/2acb62a46572494716cdaa683649d1fbbf8852a5/islt_7355/grave_brooklyn_wide.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+        padding-top: 129px;
+        font-size: 70px;
+        height: 200px;
+    }
+    
+    h2 {
+        display: block;
+        text-align: center;
+
+    }
+    h3 {
+        display: block;
+        text-align: center;
+    }
     #moriahimage {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #resourcesimage {
+        width: 42%;
+        position: relative;
+        left: 57%;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #maintenancemedia {
         width: 35%;
         position: relative;
         left: 62%;
@@ -46,22 +83,8 @@ footer {
         width: 75%;
         position: absolute;
         left: 27%;
-        top: 700px;
+        top: 1170px;
         padding-bottom: 50px;
-    }
-    h1 {
-        display: block;
-        text-align: center;
-        color: #003300;
-    }
-    h2 {
-        display: block;
-        text-align: center;
-    
-    }
-    h3 {
-        display: block;
-        text-align: center;
     }
     #aboutparagraph {
         width: 42%;
@@ -69,38 +92,165 @@ footer {
         margin: 10px;
         padding-bottom: 50px;
         position: absolute;
-        left: 13%;
-        top: 141px;   
+        left: 15%;
+        top: 425px;   
+    }
+    #educator{
+        border-right: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:15%;
+    }
+    #learn {
+        width:20%;
+        position: absolute;
+        left:40%;
+        padding-bottom: 70px;
+    }
+    #resources {
+        border-left: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:65%;
+    }
+    #resumevideo {
+        left: 15%;
+        position: absolute;
+        top: 860px;
+        margin-bottom: 70px;
+    }
+    p#introparagraph{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    p#resourcesparagraph {
+        width: 40%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 15%;
+        top: 425px; 
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 50%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    .References{
+        display: block;
+        padding: 5px;
+        width: 50%;
+        border-top: #070200 solid 3px;
+    }
+    .APAreference {
+        display:block;
+        margin: 13px 5px 5px 200px;
     }
 } 
 
-@media screen and (max-width: 768px) {
-    #moriahimage {
-        width: 35%;
-        position: absolute;
-        left:60%;
-        top:223px;
+@media screen and (max-width: 889px ) and (min-width: 540px){
+    a{
+        color:#568c8c;
     }
-    blockquote {
-        text-align: center;
-        width: 75%;
-        position: fixed;
-        top: 620px;
-        padding-bottom: 50px;
+    a:visited {
+        color: #585c63;
+    }
+    a:hover {
+        color: #072000;
+    }
+    div.exteriordiv {
+        padding-bottom: 150px;
+        font-size: x-large;
     }
     h1 {
         display: block;
         text-align: center;
-        color: #003300;
+        text-shadow: 0 0 black;
+        color: #eeece6;
+        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/2acb62a46572494716cdaa683649d1fbbf8852a5/islt_7355/grave_brooklyn_wide.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+        padding-top: 10px;
+        font-size: 60px;
+        height: 170px;
     }
+    
     h2 {
         display: block;
         text-align: center;
-    
+        position: relative;
+        top:37px;
+
     }
     h3 {
         display: block;
         text-align: center;
+        position: relative;
+        top:22px;
+    }
+    #moriahimage {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #resourcesimage {
+        width: 42%;
+        position: relative;
+        left: 57%;
+        top:30px;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    blockquote {
+        text-align: center;
+        width: 75%;
+        position: absolute;
+        top: 1900PX;
+        padding-bottom: 50px;
     }
     #aboutparagraph {
         width: 42%;
@@ -109,7 +259,412 @@ footer {
         padding-bottom: 70px;
         position: absolute;
         left: 5%;
-        top: 200px;   
+        top: 330px;   
     } 
+    #educator{
+        border-right: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:15%;
+    }
+    #learn {
+        width:20%;
+        position: absolute;
+        left:40%;
+        padding-bottom: 30px;
+    }
+    #resources {
+        border-left: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:65%;
+    }
+    #resumevideo {
+        position: absolute;
+        top: 1600px;
+        margin-bottom: 70px;
+    }
+    p#introparagraph{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    p#resourcesparagraph{
+        width: 40%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 5%;
+        top: 255px;
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 45%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    .References{
+        display: block;
+        padding: 5px;
+        width: 80%;
+        border-top: #070200 solid 3px;
+        position: relative;
+        top: 55px;
+    }
+    .APAreference {
+        display:block;
+        margin: 13px 5px 5px 20px;
+        
+    }
+} 
+@media screen and (max-width: 539px) {
+    a{
+        color:#568c8c;
+    }
+    a:visited {
+        color: #585c63;
+    }
+    a:hover {
+        color: #072000;
+    }
+    div.exteriordiv {
+        padding-bottom: 250px;
+        font-size: x-large;
+    }
+    h1 {
+        display: block;
+        text-align: center;
+        text-shadow: 0 0 black;
+        color: #eeece6;
+        background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/86e49e55a894df4f597aea8ae8deb4a131391bce/islt_7355/grave_brooklyn_narrow.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: auto;
+        padding-top: 20px;
+        font-size: 40px;
+        height: 150px;
+    }
+    h2 {
+        display: block;
+        text-align: center;
+        position: relative;
+        top:37px;
+    }
+    h3 {
+        display: block;
+        text-align: center;
+        position: relative;
+        top:22px;
+    }
+    #moriahimage {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #resourcesimage {
+        width: 42%;
+        position: relative;
+        left: 57%;
+        top:30px;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: absolute;
+        left:60%;
+        top: 330px;
+    }
+    blockquote {
+        text-align: center;
+        width: 75%;
+        position: absolute;
+        top: 2250px;
+        padding-bottom: 50px;
+    }
+    #aboutparagraph {
+        width: 42%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 70px;
+        position: absolute;
+        left: 5%;
+        top: 330px;   
+    } 
+    #educator{
+        border-right: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:15%;
+    }
+    #learn {
+        width:20%;
+        position: absolute;
+        left:40%;
+        padding-bottom: 30px;
+    }
+    #resources {
+        border-left: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:65%;
+    }
+    #resumevideo {
+        position: absolute;
+        top: 1950px;
+        margin-bottom: 70px;
+    }
+    p#introparagraph{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    p#resourcesparagraph{
+        width: 40%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 5%;
+        top: 255px;
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 45%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 5%;
+    }
+    .References{
+        display: block;
+        padding: 5px;
+        width: 80%;
+        border-top: #070200 solid 3px;
+        position: relative;
+        top: 200px;
+    }
+    .APAreference {
+        display:block;
+        margin: 13px 5px 5px 20px;
+    }
+} 
 
+@media print {
+    a{
+        color: #072000;
+    }
+    a:visited {
+        color: #072000;
+    }
+    a:hover {
+        color: #072000;
+    }
+    div.exteriordiv {
+        padding-bottom: 70px;
+        font-size: large;
+    }
+    h1 {
+        display: block;
+        text-align: center;
+        color: #072000;
+        margin: auto;
+        padding-top: 20px;
+        font-size: 70px;
+        height: 110px;
+    }
+    h2 {
+        display: block;
+        text-align: center;
+    }
+    h3 {
+        display: block;
+        text-align: center;
+    }
+    #moriahimage {
+        width: 35%;
+        position: relative;
+        left: 72%;
+        margin-right: 1in;
+    }
+    #resourcesimage {
+        width: 42%;
+        position: relative;
+        left: 57%;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    blockquote {
+        width: 85%;
+        position: absolute;
+        margin-left: 1in;
+        margin-right: 1in;
+        top: 800px;
+        padding-bottom: 50px;
+    }
+    #aboutparagraph {
+        width: 62%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        margin-right: 1in;
+        top: 225px;   
+    }
+    #educator{
+        border-right: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:15%;
+    }
+    #learn {
+        width:20%;
+        position: absolute;
+        left:40%;
+        padding-bottom: 70px;
+    }
+    #resources {
+        border-left: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:65%;
+    }
+    #resumevideo {
+    display:none;
+    }
+    p#introparagraph{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        margin-left: 1in;
+    }
+    p#resourcesparagraph {
+        width: 40%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        margin-left: 1in;
+        top: 425px; 
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 50%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    .References{
+        display: block;
+        padding: 5px;
+        width: 50%;
+        border-top: #070200 solid 3px;
+    }
+    .APAreference {
+        display:block;
+        margin: 13px 5px 5px 200px;
+    }
+    nav {
+        display: none;
+    }
+    footer {
+        display: block;
+        position: fixed;
+        text-align: right;
+        bottom: 1px;
+        margin-top: 30px;
+        margin-right: 1in;
+        width: 650px;
+        background-color: #568c8c;
+    }
 } 
