@@ -489,3 +489,153 @@ footer {
         margin: 13px 5px 5px 20px;
     }
 } 
+
+@media print {
+    a{
+        color: #072000;
+    }
+    a:visited {
+        color: #072000;
+    }
+    a:hover {
+        color: #072000;
+    }
+    div.exteriordiv {
+        padding-bottom: 70px;
+        font-size: large;
+    }
+    h1 {
+        display: block;
+        text-align: center;
+        color: #072000;
+        margin: auto;
+        padding-top: 20px;
+        font-size: 70px;
+        height: 200px;
+    }
+    
+    h2 {
+        display: block;
+        text-align: center;
+
+    }
+    h3 {
+        display: block;
+        text-align: center;
+    }
+    #moriahimage {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #resourcesimage {
+        width: 42%;
+        position: relative;
+        left: 57%;
+    }
+    #symbolmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #identifyingmedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    #maintenancemedia {
+        width: 35%;
+        position: relative;
+        left: 62%;
+    }
+    blockquote {
+        width: 75%;
+        position: absolute;
+        left: 27%;
+        top: 1000px;
+        padding-bottom: 50px;
+    }
+    #aboutparagraph {
+        width: 42%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 15%;
+        top: 425px;   
+    }
+    #educator{
+        border-right: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:15%;
+    }
+    #learn {
+        width:20%;
+        position: absolute;
+        left:40%;
+        padding-bottom: 70px;
+    }
+    #resources {
+        border-left: solid 3px #568c8c;
+        padding: 5px;
+        width: 20%;
+        position: absolute;
+        left:65%;
+    }
+    p#introparagraph{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    p#resourcesparagraph {
+        width: 40%;
+        display: block;
+        margin: 10px;
+        padding-bottom: 50px;
+        position: absolute;
+        left: 15%;
+        top: 425px; 
+    }
+    p#symbols{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    p#identifying{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 50%;
+    }
+    p#maintenance{
+        display: block;
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        left: 10%;
+    }
+    .References{
+        display: block;
+        padding: 5px;
+        width: 50%;
+        border-top: #070200 solid 3px;
+    }
+    .APAreference {
+        display:block;
+        margin: 13px 5px 5px 200px;
+    }
+    nav {
+        display: none;
+    }
+} 
