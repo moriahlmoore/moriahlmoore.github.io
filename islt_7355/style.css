@@ -11,11 +11,33 @@ p#introparagraph{
 footer {
     display: block;
     position: fixed;
-    text-align: left;
+    height:50px;
     bottom: 1px;
-    margin-top: 30px;
     width: 1700px;
     background-color: #568c8c;
+    background-image: url(https://raw.githubusercontent.com/moriahlmoore/moriahlmoore.github.io/9266f79aa00303f7b394e0b2e90ac6100141e453/islt_7355/Grassfooter.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*<a target="_blank" href="https://icons8.com/icon/0k3RLElvAdsE/phone">Phone</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/UL3jZJodYWSo/mail">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>*/
+}
+#footer{
+    text-align: left;
+    margin-top: 15px;
+}
+#phone {
+    position:fixed;
+    bottom: 4px;
+    left:273px;
+}
+#email {
+    position:fixed;
+    bottom: 4px;
+    left:470px;
+}
+#phone:hover, #email:hover {
+    width: 50px;
+    height: 50px;
 }
 @media screen and (min-width: 890px) {
     a{
