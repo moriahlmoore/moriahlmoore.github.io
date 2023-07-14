@@ -41,7 +41,7 @@ footer {
 }
 @media screen and (min-width: 890px) {
     a{
-        color:#568c8c;
+        color: #585c63;
     }
     a:visited {
         color: #585c63;
@@ -403,7 +403,7 @@ footer {
 } 
 @media screen and (max-width: 539px) {
     a{
-        color:#568c8c;
+        color: #585c63;
     }
     a:visited {
         color: #585c63;
