@@ -207,6 +207,8 @@ footer {
         left: 12%;
     }
     .References{
+        position: relative;
+        top: 94px;
         display: block;
         padding: 5px;
         width: 50%;
