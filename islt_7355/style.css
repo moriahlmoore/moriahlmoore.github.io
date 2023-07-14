@@ -70,7 +70,8 @@ footer {
     h2 {
         display: block;
         text-align: center;
-
+        position: relative;
+        left: 2%;
     }
     h3 {
         display: block;
@@ -87,19 +88,37 @@ footer {
         left: 57%;
     }
     #symbolmedia {
-        width: 35%;
-        position: relative;
-        left: 62%;
+        position: absolute;
+        width: 45%;
+        left: 53%;
+        top: 442px;
     }
     #identifyingmedia {
         width: 35%;
-        position: relative;
-        left: 62%;
+        position: absolute;
+        top: 1080px;
+        left: 13%;
     }
     #maintenancemedia {
         width: 35%;
-        position: relative;
+        position: absolute;
+        top: 1430px;
         left: 62%;
+    }
+    #howsymbols {
+        position: absolute;
+        left: 27%;
+        top: 380px;
+    }
+    #howidentify {
+        position: absolute;
+        left: 26%;
+        top: 1020px;
+    }
+    #howmaintenance{
+        position: absolute;
+        left: 33%;
+        top: 1370px;
     }
     blockquote {
         width: 75%;
@@ -162,27 +181,30 @@ footer {
     }
     p#symbols{
         display: block;
-        width: 80%;
+        width: 38%;
         margin: 10px;
         padding: 10px;
         position: relative;
-        left: 10%;
+        top: 20px;
+        left: 12%;
     }
     p#identifying{
         display: block;
-        width: 80%;
+        width: 45%;
         margin: 10px;
         padding: 10px;
         position: relative;
-        left: 50%;
+        top: 420px;
+        left: 53%;
     }
     p#maintenance{
-        display: block;
-        width: 80%;
+        width: 40%;
         margin: 10px;
         padding: 10px;
+        padding-bottom: 70px;
         position: relative;
-        left: 10%;
+        top: 660px;
+        left: 12%;
     }
     .References{
         display: block;
@@ -228,14 +250,14 @@ footer {
         display: block;
         text-align: center;
         position: relative;
-        top:37px;
-
+        top: 28px;
+        font-size: x-large;
     }
     h3 {
         display: block;
         text-align: center;
         position: relative;
-        top:22px;
+        font-size: larger;
     }
     #moriahimage {
         width: 35%;
@@ -250,22 +272,33 @@ footer {
         top:30px;
     }
     #symbolmedia {
-        width: 35%;
-        position: absolute;
-        left:60%;
-        top: 330px;
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 112px;
     }
     #identifyingmedia {
-        width: 35%;
-        position: absolute;
-        left:60%;
-        top: 330px;
+        width: 90%;
+        position: relative;
+        top: 578px;
+        left: 5%;
     }
     #maintenancemedia {
-        width: 35%;
+        width: 90%;
+        position: relative;
+        top: 97px;
+        left: 5%;
+    }
+    #howsymbols {
         position: absolute;
-        left:60%;
-        top: 330px;
+    }
+    #howidentify {
+        position: relative;
+        top: -206px;
+    }
+    #howmaintenance{
+        position: relative;
+        top: 124px;
     }
     blockquote {
         text-align: center;
@@ -331,6 +364,7 @@ footer {
         margin: 10px;
         padding: 10px;
         position: relative;
+        top: 111px;
         left: 5%;
     }
     p#identifying{
@@ -339,7 +373,8 @@ footer {
         margin: 10px;
         padding: 10px;
         position: relative;
-        left: 45%;
+        top: -231px;
+        left: 10%;
     }
     p#maintenance{
         display: block;
@@ -347,7 +382,8 @@ footer {
         margin: 10px;
         padding: 10px;
         position: relative;
-        left: 5%;
+        top: 104px;
+        left: 10%;
     }
     .References{
         display: block;
@@ -374,7 +410,7 @@ footer {
         color: #072000;
     }
     div.exteriordiv {
-        padding-bottom: 250px;
+        padding-bottom: 80px;
         font-size: x-large;
     }
     h1 {
@@ -394,13 +430,14 @@ footer {
         display: block;
         text-align: center;
         position: relative;
-        top:37px;
+        top: 50px;
+        font-size: x-large;
     }
     h3 {
         display: block;
         text-align: center;
         position: relative;
-        top:22px;
+        font-size: larger;
     }
     #moriahimage {
         width: 35%;
@@ -415,22 +452,31 @@ footer {
         top:30px;
     }
     #symbolmedia {
-        width: 35%;
-        position: absolute;
-        left:60%;
-        top: 330px;
+        position: relative;
+        width: 90%;
+        left: 5%;
     }
     #identifyingmedia {
-        width: 35%;
-        position: absolute;
-        left:60%;
-        top: 330px;
+        width: 90%;
+        position: relative;
+        top: 700px;
+        left: 5%;
     }
     #maintenancemedia {
-        width: 35%;
-        position: absolute;
-        left:60%;
-        top: 330px;
+        width: 90%;
+        position: relative;
+        left: 5%;
+    }
+    #howsymbols {
+        position: relative;
+        top: 44px;
+    }
+    #howidentify {
+        position: relative;
+        top: -206px;
+    }
+    #howmaintenance{
+        position: relative;
     }
     blockquote {
         text-align: center;
@@ -496,6 +542,7 @@ footer {
         margin: 10px;
         padding: 10px;
         position: relative;
+        top: 10px;
         left: 5%;
     }
     p#identifying{
@@ -504,7 +551,8 @@ footer {
         margin: 10px;
         padding: 10px;
         position: relative;
-        left: 45%;
+        top: -231px;
+        left: 10%;
     }
     p#maintenance{
         display: block;
@@ -512,7 +560,7 @@ footer {
         margin: 10px;
         padding: 10px;
         position: relative;
-        left: 5%;
+        left: 10%;
     }
     .References{
         display: block;
