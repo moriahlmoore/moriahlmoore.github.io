@@ -39,6 +39,7 @@ footer {
     width: 50px;
     height: 50px;
 }
+
 @media screen and (min-width: 890px) {
     a{
         color: #585c63;
@@ -66,7 +67,6 @@ footer {
         font-size: 70px;
         height: 200px;
     }
-    
     h2 {
         display: block;
         text-align: center;
@@ -76,6 +76,12 @@ footer {
     h3 {
         display: block;
         text-align: center;
+    }
+    form{
+        display:block;
+        position: absolute;
+        left:22%;
+        padding-bottom: 75px;
     }
     #moriahimage {
         width: 35%;
@@ -247,7 +253,6 @@ footer {
         font-size: 60px;
         height: 170px;
     }
-    
     h2 {
         display: block;
         text-align: center;
@@ -260,6 +265,12 @@ footer {
         text-align: center;
         position: relative;
         font-size: larger;
+    }
+    form{
+        display:block;
+        position: absolute;
+        top: 280px;
+        left:22%;
     }
     #moriahimage {
         width: 35%;
@@ -440,6 +451,12 @@ footer {
         text-align: center;
         position: relative;
         font-size: larger;
+    }
+    form{
+        display:block;
+        position: absolute;
+        top: 280px;
+        left:22%;
     }
     #moriahimage {
         width: 35%;
